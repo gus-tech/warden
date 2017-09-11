@@ -1,0 +1,607 @@
+(dp1
+S'output'
+p2
+S"<type 'exceptions.IOError'> [Errno 2] No such file or directory: '/home/www-data/web2py/applications/admin/../warden/models/db.py'"
+p3
+sS'layer'
+p4
+S'/home/www-data/web2py/applications/admin/controllers/wizard.py'
+p5
+sS'code'
+p6
+S'<code object <module> at 0x72d38968, file "/home/www-data/web2py/applications/admin/controllers/wizard.py", line 3>'
+p7
+sS'snapshot'
+p8
+(dp9
+S'exception'
+p10
+(dp11
+S'__getslice__'
+p12
+S"<method-wrapper '__getslice__' of exceptions.IOError object>"
+p13
+sS'__str__'
+p14
+S"<method-wrapper '__str__' of exceptions.IOError object>"
+p15
+sS'__reduce__'
+p16
+S'<built-in method __reduce__ of exceptions.IOError object>'
+p17
+sS'__dict__'
+p18
+S'{}'
+p19
+sS'__sizeof__'
+p20
+S'<built-in method __sizeof__ of exceptions.IOError object>'
+p21
+sS'message'
+p22
+S"''"
+p23
+sS'__init__'
+p24
+S"<method-wrapper '__init__' of exceptions.IOError object>"
+p25
+sS'__setattr__'
+p26
+S"<method-wrapper '__setattr__' of exceptions.IOError object>"
+p27
+sS'__reduce_ex__'
+p28
+S'<built-in method __reduce_ex__ of exceptions.IOError object>'
+p29
+sS'__new__'
+p30
+S'<built-in method __new__ of type object>'
+p31
+sS'errno'
+p32
+S'2'
+sS'__format__'
+p33
+S'<built-in method __format__ of exceptions.IOError object>'
+p34
+sS'__class__'
+p35
+S"<type 'exceptions.IOError'>"
+p36
+sS'filename'
+p37
+S"'/home/www-data/web2py/applications/admin/../warden/models/db.py'"
+p38
+sS'__doc__'
+p39
+S"'I/O operation failed.'"
+p40
+sS'__getitem__'
+p41
+S"<method-wrapper '__getitem__' of exceptions.IOError object>"
+p42
+sS'__setstate__'
+p43
+S'<built-in method __setstate__ of exceptions.IOError object>'
+p44
+sS'__getattribute__'
+p45
+S"<method-wrapper '__getattribute__' of exceptions.IOError object>"
+p46
+sS'args'
+p47
+S"(2, 'No such file or directory')"
+p48
+sS'__subclasshook__'
+p49
+S'<built-in method __subclasshook__ of type object>'
+p50
+sS'__unicode__'
+p51
+S'<built-in method __unicode__ of exceptions.IOError object>'
+p52
+sS'strerror'
+p53
+S"'No such file or directory'"
+p54
+sS'__delattr__'
+p55
+S"<method-wrapper '__delattr__' of exceptions.IOError object>"
+p56
+sS'__repr__'
+p57
+S"<method-wrapper '__repr__' of exceptions.IOError object>"
+p58
+sS'__hash__'
+p59
+S"<method-wrapper '__hash__' of exceptions.IOError object>"
+p60
+ssS'evalue'
+p61
+S"[Errno 2] No such file or directory: '/home/www-data/web2py/applications/admin/../warden/models/db.py'"
+p62
+sS'request'
+p63
+cgluon.html
+XML_unpickle
+p64
+(S's\xcfP\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">ajax</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">application</td><td style="vertical-align:top;">:</td><td><div>admin</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cid</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">client</td><td style="vertical-align:top;">:</td><td><div>10.1.10.251</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">controller</td><td style="vertical-align:top;">:</td><td><div>wizard</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">session_id_admin</td><td style="vertical-align:top;">:</td><td><div>10.1.10.251-a5b8be22-e1da-440e-90ae-fe7f0fd5896d<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">env</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">CONTENT_LENGTH</td><td style="vertical-align:top;">:</td><td><div>881</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">CONTENT_TYPE</td><td style="vertical-align:top;">:</td><td><div>multipart/form-data; boundary=----WebKitFormBoundaryqWRzUAkaJJBuNM3N</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">DOCUMENT_ROOT</td><td style="vertical-align:top;">:</td><td><div>/usr/share/nginx/html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTPS</td><td style="vertical-align:top;">:</td><td><div>on</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT</td><td style="vertical-align:top;">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_ENCODING</td><td style="vertical-align:top;">:</td><td><div>gzip, deflate, br</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_LANGUAGE</td><td style="vertical-align:top;">:</td><td><div>en-US,en;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_CACHE_CONTROL</td><td style="vertical-align:top;">:</td><td><div>max-age=0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_CONNECTION</td><td style="vertical-align:top;">:</td><td><div>keep-alive</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_CONTENT_LENGTH</td><td style="vertical-align:top;">:</td><td><div>881</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_CONTENT_TYPE</td><td style="vertical-align:top;">:</td><td><div>multipart/form-data; boundary=----WebKitFormBoundaryqWRzUAkaJJBuNM3N</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_COOKIE</td><td style="vertical-align:top;">:</td><td><div>session_id_admin=10.1.10.251-a5b8be22-e1da-440e-90ae-fe7f0fd5896d</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_HOST</td><td style="vertical-align:top;">:</td><td><div>warden.gus.tech</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ORIGIN</td><td style="vertical-align:top;">:</td><td><div>https://warden.gus.tech</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_REFERER</td><td style="vertical-align:top;">:</td><td><div>https://warden.gus.tech/admin/wizard/step6/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_UPGRADE_INSECURE_REQUESTS</td><td style="vertical-align:top;">:</td><td><div>1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_USER_AGENT</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (X11; CrOS x86_64 9592.85.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.112 Safari/537.36</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">PATH_INFO</td><td style="vertical-align:top;">:</td><td><div>/admin/wizard/step6/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">QUERY_STRING</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_ADDR</td><td style="vertical-align:top;">:</td><td><div>10.1.10.251</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_PORT</td><td style="vertical-align:top;">:</td><td><div>60329</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REQUEST_METHOD</td><td style="vertical-align:top;">:</td><td><div>POST</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REQUEST_SCHEME</td><td style="vertical-align:top;">:</td><td><div>https</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REQUEST_URI</td><td style="vertical-align:top;">:</td><td><div>/admin/wizard/step6/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_NAME</td><td style="vertical-align:top;">:</td><td><div>warden</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PORT</td><td style="vertical-align:top;">:</td><td><div>443</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PROTOCOL</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_SOFTWARE</td><td style="vertical-align:top;">:</td><td><div>nginx/1.10.3</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">UWSGI_SCHEME</td><td style="vertical-align:top;">:</td><td><div>https</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;/home/www-data/web2py/applications/admin/&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>/home/www-data/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">content_length</td><td style="vertical-align:top;">:</td><td><div>881</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">content_type</td><td style="vertical-align:top;">:</td><td><div>multipart/form-data; boundary=----WebKitFormBoundaryqWRzUAkaJJBuNM3N</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">document_root</td><td style="vertical-align:top;">:</td><td><div>/usr/share/nginx/html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>/home/www-data/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept</td><td style="vertical-align:top;">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_encoding</td><td style="vertical-align:top;">:</td><td><div>gzip, deflate, br</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_language</td><td style="vertical-align:top;">:</td><td><div>en-US,en;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_cache_control</td><td style="vertical-align:top;">:</td><td><div>max-age=0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_connection</td><td style="vertical-align:top;">:</td><td><div>keep-alive</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_content_length</td><td style="vertical-align:top;">:</td><td><div>881</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_content_type</td><td style="vertical-align:top;">:</td><td><div>multipart/form-data; boundary=----WebKitFormBoundaryqWRzUAkaJJBuNM3N</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_cookie</td><td style="vertical-align:top;">:</td><td><div>session_id_admin=10.1.10.251-a5b8be22-e1da-440e-90ae-fe7f0fd5896d</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_host</td><td style="vertical-align:top;">:</td><td><div>warden.gus.tech</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_origin</td><td style="vertical-align:top;">:</td><td><div>https://warden.gus.tech</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_referer</td><td style="vertical-align:top;">:</td><td><div>https://warden.gus.tech/admin/wizard/step6/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_upgrade_insecure_requests</td><td style="vertical-align:top;">:</td><td><div>1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_user_agent</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (X11; CrOS x86_64 9592.85.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.112 Safari/537.36</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">https</td><td style="vertical-align:top;">:</td><td><div>on</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_py2</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>::1</div></td></tr><tr><td><div>127.0.1.1</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>127.0.0.1</div></td></tr><tr><td><div>warden</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path_info</td><td style="vertical-align:top;">:</td><td><div>/admin/wizard/step6/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">query_string</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_addr</td><td style="vertical-align:top;">:</td><td><div>10.1.10.251</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_port</td><td style="vertical-align:top;">:</td><td><div>60329</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_method</td><td style="vertical-align:top;">:</td><td><div>POST</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_scheme</td><td style="vertical-align:top;">:</td><td><div>https</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_uri</td><td style="vertical-align:top;">:</td><td><div>/admin/wizard/step6/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_name</td><td style="vertical-align:top;">:</td><td><div>warden</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_port</td><td style="vertical-align:top;">:</td><td><div>443</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_protocol</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_software</td><td style="vertical-align:top;">:</td><td><div>nginx/1.10.3</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uwsgi.node</td><td style="vertical-align:top;">:</td><td><div>warden</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uwsgi.version</td><td style="vertical-align:top;">:</td><td><div>2.0.15</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uwsgi_node</td><td style="vertical-align:top;">:</td><td><div>warden</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uwsgi_scheme</td><td style="vertical-align:top;">:</td><td><div>https</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uwsgi_version</td><td style="vertical-align:top;">:</td><td><div>2.0.15</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_path</td><td style="vertical-align:top;">:</td><td><div>/home/www-data/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.15.4-stable+timestamp.2017.09.02.04.02.22</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.errors</td><td style="vertical-align:top;">:</td><td><div>&lt;open file &#x27;wsgi_errors&#x27;, mode &#x27;w&#x27; at 0x73c845f8&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;built-in function uwsgi_sendfile&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.input</td><td style="vertical-align:top;">:</td><td><div>&lt;uwsgi._Input object at 0x72a2f100&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multiprocess</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multithread</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.url_scheme</td><td style="vertical-align:top;">:</td><td><div>https</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.version</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_errors</td><td style="vertical-align:top;">:</td><td><div>&lt;open file &#x27;wsgi_errors&#x27;, mode &#x27;w&#x27; at 0x73c845f8&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;built-in function uwsgi_sendfile&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_input</td><td style="vertical-align:top;">:</td><td><div>&lt;uwsgi._Input object at 0x72a2f100&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multiprocess</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multithread</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_url_scheme</td><td style="vertical-align:top;">:</td><td><div>https</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_version</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">extension</td><td style="vertical-align:top;">:</td><td><div>html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">folder</td><td style="vertical-align:top;">:</td><td><div>/home/www-data/web2py/applications/admin/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">function</td><td style="vertical-align:top;">:</td><td><div>step6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">global_settings</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;/home/www-data/web2py/applications/admin/&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>/home/www-data/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>/home/www-data/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_py2</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>::1</div></td></tr><tr><td><div>127.0.1.1</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>127.0.0.1</div></td></tr><tr><td><div>warden</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.15.4-stable+timestamp.2017.09.02.04.02.22</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_https</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_local</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_restful</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_scheduler</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_shell</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">now</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2017, 9, 10, 21, 16, 10, 402813)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">raw_args</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">raw_extension</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">url</td><td style="vertical-align:top;">:</td><td><div>/admin/wizard/step6/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">utcnow</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2017, 9, 11, 4, 16, 10, 402883)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi</td><td style="vertical-align:top;">:</td><td><div>&lt;gluon.main.LazyWSGI object at 0x72b69bd0&gt;</div></td></tr></table></div>'
+tRp65
+sS'frames'
+p66
+(lp67
+(dp68
+S'file'
+p69
+S'/home/www-data/web2py/gluon/restricted.py'
+p70
+sS'dump'
+p71
+(dp72
+S'environment'
+p73
+S"{'A': <class 'gluon.html.A'>, 'ANY_OF': <class 'gluon.validators.ANY_OF'>, 'ASSIGNJS': <function ASSIGNJS>, 'A_button': <function A_button>, 'B': <class 'gluon.html.B'>, 'BEAUTIFY': <class 'gluon.html.BEAUTIFY'>, 'BODY': <class 'gluon.html.BODY'>, 'BR': <class 'gluon.html.BR'>, 'BUTTON': <class 'gluon.html.BUTTON'>, 'CAT': <class 'gluon.html.CAT'>, ...}"
+p74
+sS'ccode'
+p75
+S'<code object <module> at 0x72d38968, file "/home...pplications/admin/controllers/wizard.py", line 3>'
+p76
+ssS'lnum'
+p77
+I219
+sS'lines'
+p78
+(dp79
+I214
+S'    if environment is None:'
+p80
+sI215
+S'        environment = {}'
+p81
+sI216
+S"    environment['__file__'] = layer"
+p82
+sI217
+S"    environment['__name__'] = '__restricted__'"
+p83
+sI218
+S'    try:'
+p84
+sI219
+S'        exec(ccode, environment)'
+p85
+sI220
+S'    except HTTP:'
+p86
+sI221
+S'        raise'
+p87
+sI222
+S'    except RestrictedError:'
+p88
+sI223
+S'        # do not encapsulate (obfuscate) the original RestrictedError'
+p89
+ssS'call'
+p90
+S'(ccode=<code object <module> at 0x72d38968, file "/home...pplications/admin/controllers/wizard.py", line 3>, environment={\'A\': <class \'gluon.html.A\'>, \'ANY_OF\': <class \'gluon.validators.ANY_OF\'>, \'ASSIGNJS\': <function ASSIGNJS>, \'A_button\': <function A_button>, \'B\': <class \'gluon.html.B\'>, \'BEAUTIFY\': <class \'gluon.html.BEAUTIFY\'>, \'BODY\': <class \'gluon.html.BODY\'>, \'BR\': <class \'gluon.html.BR\'>, \'BUTTON\': <class \'gluon.html.BUTTON\'>, \'CAT\': <class \'gluon.html.CAT\'>, ...}, layer=\'/home/www-data/web2py/applications/admin/controllers/wizard.py\', scode=<code object <module> at 0x72d38968, file "/home...pplications/admin/controllers/wizard.py", line 3>)'
+p91
+sS'func'
+p92
+S'restricted'
+p93
+sa(dp94
+g69
+S'/home/www-data/web2py/applications/admin/controllers/wizard.py'
+p95
+sg71
+(dp96
+sg77
+I609
+sg78
+(dp97
+I598
+S'            try:'
+p98
+sI599
+S'                file.write('
+p99
+sI600
+S"                    make_view(page, session.app.get('page_' + page, '')))"
+p100
+sI601
+S'            finally:'
+p101
+sI602
+S'                file.close()'
+p102
+sI603
+S''
+sI604
+S'    if options.erase_database:'
+p103
+sI605
+S"        path = os.path.join(request.folder, '..', app, 'databases', '*')"
+p104
+sI606
+S'        for file in glob.glob(path):'
+p105
+sI607
+S'            os.unlink(file)'
+p106
+ssg90
+S'()'
+p107
+sg92
+S'<module>'
+p108
+sa(dp109
+g69
+S'/home/www-data/web2py/gluon/globals.py'
+p110
+sg71
+(dp111
+S'self'
+p112
+S'undefined'
+p113
+sS'f'
+S'<function step6>'
+p114
+ssg77
+I414
+sg78
+(dp115
+I416
+S'        self._custom_commit = None'
+p116
+sI417
+S'        self._custom_rollback = None'
+p117
+sI418
+S"        self.generic_patterns = ['*']"
+p118
+sI409
+S"        self.flash = ''            # used by the default view layout"
+p119
+sI410
+S'        self.meta = Storage()      # used by web2py_ajax.html'
+p120
+sI411
+S'        self.menu = []             # used by the default view layout'
+p121
+sI412
+S'        self.files = []            # used by web2py_ajax.html'
+p122
+sI413
+S'        self._vars = None'
+p123
+sI414
+S'        self._caller = lambda f: f()'
+p124
+sI415
+S'        self._view_environment = None'
+p125
+ssg90
+S'(f=<function step6>)'
+p126
+sg92
+S'<lambda>'
+p127
+sa(dp128
+g69
+S'/home/www-data/web2py/applications/admin/controllers/wizard.py'
+p129
+sg71
+(dp130
+S'global create'
+p131
+S'<function create>'
+p132
+sS'form.vars'
+p133
+S"<Storage {'generate_menu': True, 'apply_layout':...rase_database': True, 'populate_database': True}>"
+p134
+sS'form'
+p135
+S'<gluon.sqlhtml.SQLFORM object>'
+p136
+ssg77
+I252
+sg78
+(dp137
+I256
+S''
+sI247
+S'        _id="generate_form", _class="form-horizontal span7 well well-small")'
+p138
+sI248
+S'    if form.accepts(request.vars):'
+p139
+sI249
+S'        if DEMO_MODE:'
+p140
+sI250
+S"            session.flash = T('Application cannot be generated in demo mode')"
+p141
+sI251
+S"            redirect(URL('index'))"
+p142
+sI252
+S'        create(form.vars)'
+p143
+sI253
+S"        session.flash = 'Application %s created' % app"
+p144
+sI254
+S"        redirect(URL('generated'))"
+p145
+sI255
+S'    return dict(step=\'6: Generate app "%s"\' % app, form=form)'
+p146
+ssg90
+S'()'
+p147
+sg92
+S'step6'
+p148
+sa(dp149
+g69
+S'/home/www-data/web2py/applications/admin/controllers/wizard.py'
+p150
+sg71
+(dp151
+S'model'
+p152
+S"'/home/www-data/web2py/applications/admin/../warden/models/db.py'"
+p153
+sS'global fix_db'
+p154
+S'<function fix_db>'
+p155
+ssg77
+I545
+sg78
+(dp156
+I544
+S"    model = os.path.join(request.folder, '..', app, 'models', 'db.py')"
+p157
+sI545
+S'    fix_db(model)'
+p158
+sI546
+S''
+sI547
+S'    ### create newapp/models/db_wizard.py'
+p159
+sI548
+S'    if options.generate_model:'
+p160
+sI549
+S'        model = os.path.join('
+p161
+sI540
+S'        finally:'
+p162
+sI541
+S'            file.close()'
+p163
+sI542
+S''
+sI543
+S'    ### customize the auth_user table'
+p164
+ssg90
+S"(options=<Storage {'generate_menu': True, 'apply_layout':...rase_database': True, 'populate_database': True}>)"
+p165
+sg92
+S'create'
+p166
+sa(dp167
+g69
+S'/home/www-data/web2py/applications/admin/controllers/wizard.py'
+p168
+sg71
+(dp169
+S'content'
+p170
+g113
+sS'global read_file'
+p171
+S'<function read_file>'
+p172
+sS'filename'
+p173
+S"'/home/www-data/web2py/applications/admin/../warden/models/db.py'"
+p174
+ssg77
+I405
+sg78
+(dp175
+I400
+S'    return s'
+p176
+sI401
+S''
+sI402
+S''
+sI403
+S'def fix_db(filename):'
+p177
+sI404
+S"    params = dict(session.app['params'])"
+p178
+sI405
+S"    content = read_file(filename, 'r')"
+p179
+sI406
+S"    if 'auth_user' in session.app['tables']:"
+p180
+sI407
+S"        auth_user = make_table('auth_user', session.app['table_auth_user'])"
+p181
+sI408
+S"        content = content.replace('sqlite://storage.sqlite',"
+p182
+sI409
+S"                                  params['database_uri'])"
+p183
+ssg90
+S"(filename='/home/www-data/web2py/applications/admin/../warden/models/db.py')"
+p184
+sg92
+S'fix_db'
+p185
+sa(dp186
+g69
+S'/home/www-data/web2py/gluon/fileutils.py'
+p187
+sg71
+(dp188
+S'filename'
+p189
+S"'/home/www-data/web2py/applications/admin/../warden/models/db.py'"
+p190
+sS'global open_file'
+p191
+S'<function open_file>'
+p192
+sS'mode'
+p193
+S"'r'"
+p194
+sS'f'
+g113
+ssg77
+I112
+sg78
+(dp195
+I107
+S''
+sI108
+S"def read_file(filename, mode='r'):"
+p196
+sI109
+S'    """Returns content from filename, making sure to close the file explicitly'
+p197
+sI110
+S'    on exit.'
+p198
+sI111
+S'    """'
+p199
+sI112
+S'    f = open_file(filename, mode)'
+p200
+sI113
+S'    try:'
+p201
+sI114
+S'        return f.read()'
+p202
+sI115
+S'    finally:'
+p203
+sI116
+S'        f.close()'
+p204
+ssg90
+S"(filename='/home/www-data/web2py/applications/admin/../warden/models/db.py', mode='r')"
+p205
+sg92
+S'read_file'
+p206
+sa(dp207
+g69
+S'/home/www-data/web2py/gluon/fileutils.py'
+p208
+sg71
+(dp209
+S'builtinopen'
+p210
+S'<built-in function open>'
+p211
+sS'filename'
+p212
+S"'/home/www-data/web2py/applications/admin/../warden/models/db.py'"
+p213
+sS'mode'
+p214
+S"'r'"
+p215
+sS'f'
+g113
+ssg77
+I102
+sg78
+(dp216
+I97
+S'    return version_tuple'
+p217
+sI98
+S''
+sI99
+S''
+sI100
+S'def open_file(filename, mode):'
+p218
+sI101
+S"    if PY2 or 'b' in mode:"
+p219
+sI102
+S'        f = open(filename, mode)'
+p220
+sI103
+S'    else:'
+p221
+sI104
+S'        f = open(filename, mode, encoding="utf8")'
+p222
+sI105
+S'    return f'
+p223
+sI106
+S''
+ssg90
+S"(filename='/home/www-data/web2py/applications/admin/../warden/models/db.py', mode='r')"
+p224
+sg92
+S'open_file'
+p225
+sasS'pyver'
+p226
+S'Python 2.7.13: /usr/local/bin/uwsgi (prefix: /usr)'
+p227
+sS'session'
+p228
+g64
+(S's\xb3\x12\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">app</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">name</td><td style="vertical-align:top;">:</td><td><div>warden</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">page_error</td><td style="vertical-align:top;">:</td><td><div># Error: the document does not exist</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">page_index</td><td style="vertical-align:top;">:</td><td><div># Welcome to my new app</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">pages</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>index</div></td></tr><tr><td><div>error</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">params</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div><table><tr><td><div>title</div></td></tr><tr><td><div>Warden</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>subtitle</div></td></tr><tr><td><div>You must obey!</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>author</div></td></tr><tr><td><div>Gus Bonacorsi</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>author_email</div></td></tr><tr><td><div>gus@gus.tech</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>keywords</div></td></tr><tr><td><div></div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>description</div></td></tr><tr><td><div></div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>layout_theme</div></td></tr><tr><td><div>Default</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>database_uri</div></td></tr><tr><td><div>sqlite://storage.sqlite</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>security_key</div></td></tr><tr><td><div>20a75c51-04a0-40ed-8554-9dbf883b963d</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>email_server</div></td></tr><tr><td><div>localhost</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>email_sender</div></td></tr><tr><td><div>warden@gus.tech</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>email_login</div></td></tr><tr><td><div></div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>login_method</div></td></tr><tr><td><div>local</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>login_config</div></td></tr><tr><td><div></div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>plugins</div></td></tr><tr><td><div><table></table></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">table_auth_user</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>username</div></td></tr><tr><td><div>first_name</div></td></tr><tr><td><div>last_name</div></td></tr><tr><td><div>email</div></td></tr><tr><td><div>password</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">tables</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>auth_user</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">authorized</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">check_version</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">flash</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">hmac_key</td><td style="vertical-align:top;">:</td><td><div>9862593d-a288-4f92-a226-1439a3614589</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_mobile</td><td style="vertical-align:top;">:</td><td><div>auto</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">last_time</td><td style="vertical-align:top;">:</td><td><div>1505103370.414095</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">pam_user</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">plugins</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">themes</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>Default</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">token</td><td style="vertical-align:top;">:</td><td><div>48861786-b860-4a0e-91cf-d6e49ca0f44f</div></td></tr></table></div>'
+tRp229
+sS'etype'
+p230
+S"<type 'exceptions.IOError'>"
+p231
+sS'date'
+p232
+S'Sun Sep 10 21:16:10 2017'
+p233
+sS'response'
+p234
+g64
+(S's\xd6\x1d\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">body</td><td style="vertical-align:top;">:</td><td><div>&lt;cStringIO.StringO object at 0x72b69d40&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">session_id_admin</td><td style="vertical-align:top;">:</td><td><div>10.1.10.251-a5b8be22-e1da-440e-90ae-fe7f0fd5896d<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div>/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">delimiters</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>{{</div></td></tr><tr><td><div>}}</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">files</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>/admin/static/_2.15.4/plugin_multiselect/jquery.multi-select.js</div></td></tr><tr><td><div>/admin/static/_2.15.4/plugin_multiselect/multi-select.css</div></td></tr><tr><td><div>/admin/static/_2.15.4/plugin_multiselect/start.js</div></td></tr><tr><td><div>/admin/static/_2.15.4/plugin_statebutton/js/bootstrap-switch.js</div></td></tr><tr><td><div>/admin/static/_2.15.4/plugin_statebutton/css/bootstrap-switch.css</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">flash</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">form_label_separator</td><td style="vertical-align:top;">:</td><td><div>: </div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">formstyle</td><td style="vertical-align:top;">:</td><td><div>table3cols</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">generic_patterns</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>*</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">headers</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">X-Powered-By</td><td style="vertical-align:top;">:</td><td><div>web2py</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">menu</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div><table><tr><td><div>Site</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/site</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Help</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://web2py.com/examples/default/documentation</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Logout</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/logout</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Debug</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/debug/interact</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">meta</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">models_to_run</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>^\\w+\\.py$</div></td></tr><tr><td><div>^wizard/\\w+\\.py$</div></td></tr><tr><td><div>^wizard/step6/\\w+\\.py$</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">postprocessing</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_client</td><td style="vertical-align:top;">:</td><td><div>10.1.10.251</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_compression_level</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_expires</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_data_name</td><td style="vertical-align:top;">:</td><td><div>session_data_admin</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_file</td><td style="vertical-align:top;">:</td><td><div>&lt;open file &#x27;/home/www-data/web2py/applications/admin/sessions/147/110/10.1.10.251-a5b8be22-e1da-440e-90ae-fe7f0fd5896d&#x27;, mode &#x27;rb+&#x27; at 0x72b75c28&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_filename</td><td style="vertical-align:top;">:</td><td><div>/home/www-data/web2py/applications/admin/sessions/10.1.10.251-a5b8be22-e1da-440e-90ae-fe7f0fd5896d</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_hash</td><td style="vertical-align:top;">:</td><td><div>07bbd2dbf4dd1ad4198a4d88e20fe87e</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id</td><td style="vertical-align:top;">:</td><td><div>10.1.10.251-a5b8be22-e1da-440e-90ae-fe7f0fd5896d</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_name</td><td style="vertical-align:top;">:</td><td><div>session_id_admin</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_locked</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_masterapp</td><td style="vertical-align:top;">:</td><td><div>admin</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_new</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_storage_type</td><td style="vertical-align:top;">:</td><td><div>file</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">static_version</td><td style="vertical-align:top;">:</td><td><div>2.15.4</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">static_version_urls</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">status</td><td style="vertical-align:top;">:</td><td><div>200</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">subtitle</td><td style="vertical-align:top;">:</td><td><div>admin</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">title</td><td style="vertical-align:top;">:</td><td><div>step6 </div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">view</td><td style="vertical-align:top;">:</td><td><div>wizard/step.html</div></td></tr></table></div>'
+tRp235
+sS'locals'
+p236
+(dp237
+S'mode'
+p238
+S"'r'"
+p239
+sg37
+S"'/home/www-data/web2py/applications/admin/../warden/models/db.py'"
+p240
+sssS'traceback'
+p241
+S'Traceback (most recent call last):\n  File "/home/www-data/web2py/gluon/restricted.py", line 219, in restricted\n    exec(ccode, environment)\n  File "/home/www-data/web2py/applications/admin/controllers/wizard.py", line 609, in <module>\n  File "/home/www-data/web2py/gluon/globals.py", line 414, in <lambda>\n    self._caller = lambda f: f()\n  File "/home/www-data/web2py/applications/admin/controllers/wizard.py", line 252, in step6\n    create(form.vars)\n  File "/home/www-data/web2py/applications/admin/controllers/wizard.py", line 545, in create\n    fix_db(model)\n  File "/home/www-data/web2py/applications/admin/controllers/wizard.py", line 405, in fix_db\n    content = read_file(filename, \'r\')\n  File "/home/www-data/web2py/gluon/fileutils.py", line 112, in read_file\n    f = open_file(filename, mode)\n  File "/home/www-data/web2py/gluon/fileutils.py", line 102, in open_file\n    f = open(filename, mode)\nIOError: [Errno 2] No such file or directory: \'/home/www-data/web2py/applications/admin/../warden/models/db.py\'\n'
+p242
+s.
