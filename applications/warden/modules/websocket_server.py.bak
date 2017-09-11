@@ -95,6 +95,7 @@ import time
 import sys
 import glob
 import serial
+import json
 sys.path.append('/home/www-data/web2py')
 import gluon.utils
 from gluon._compat import to_native, to_bytes, urlencode, urlopen
@@ -170,7 +171,10 @@ class DistributeHandler(tornado.websocket.WebSocketHandler):
         return True
 
     def open(self, params):
-        group, token, name = params.split('/') + [None, None]
+        params_list = params.split('/')
+        if len(params_list) < 2: params_list.append(None)
+        if len(params_list) < 3: params_list.append(None)
+        group, token, name = params_list
         self.group = group or 'default'
         self.token = token or 'none'
         self.name = name or 'anonymous'
@@ -190,7 +194,16 @@ class DistributeHandler(tornado.websocket.WebSocketHandler):
         print('%s:CONNECT to %s' % (time.time(), self.group))
 
     def on_message(self, message):
-        pass
+        try:
+            obj = json.loads(message)
+            left = float(obj['left']) * -1
+            right = float(obj['right']) * -1
+            if left >= 1.0: left = 0.99
+            if right >= 1.0: right = 0.99
+            rc.DutyAccelM1M2(address, accel, left, accel, right)
+        except:
+            rc.DutyAccelM1M2(address, accel, 0, accel, 0)
+        print(message)
 
     def on_close(self):
         rc.DutyAccelM1M2(address, accel, 0, accel, 0)

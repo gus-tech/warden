@@ -2,10 +2,11 @@
 <h1>This is the warden/index.html template</h1>
 {{=BEAUTIFY(response._vars)}}
 
-
+<input type="button" onclick="ws.send(0)">
 
 
 <script>
+    var keydown = 0
     var ws = null
     $( document ).ready(document_ready)
     function document_ready(){
@@ -35,9 +36,46 @@
         catch(err){console.log(e.data)}
     }
 
-    function ws_on_close(e){
-        $('#ipam_report_button').prop('disabled', true);
-        get_report_status()
+    $(window).keydown(function(){
+        if(keydown != 1){
+            ws.send(1)
+        }
+        keydown = 1
+    });
+    $(window).keyup(function(){
+        if(keydown != 0){
+            ws.send(0)
+        }
+        keydown = 0
+    });
+
+    var gamepad = null
+    var gamepad_interval = null
+    var poll_rate = 50
+
+    window.addEventListener("gamepadconnected", function(e) {
+        console.log("Gamepad connected at index %d: %s. %d buttons, %d axes.",
+                    e.gamepad.index, e.gamepad.id,
+                    e.gamepad.buttons.length, e.gamepad.axes.length);
+        gamepad = e.gamepad
+        //gamepad_interval = setInterval(poll_gamepad, poll_rate);
+    });
+
+    var left_axes = 0
+    var right_axes = 0
+    gamepad_interval = setInterval(poll_gamepad, poll_rate);
+    function poll_gamepad(){
+        var gamepads = navigator.getGamepads();
+        if(gamepads.length > 0){
+            var gamepad = gamepads[0]
+            var left = gamepad.axes[5]
+            var right = gamepad.axes[1]
+            if(left_axes != left || right_axes != right){
+                ws.send(JSON.stringify({'left': left, 'right': right}))
+            }
+            left_axes = left
+            right_axes = right
+            console.log(left_axes +", "+ right_axes)
+        }
     }
-    
 </script>
