@@ -1,16 +1,30 @@
 {{extend 'layout.html'}}
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="/resources/demos/style.css">
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+<style>
+    .btn-grad {background-image: linear-gradient(to right, #a01631 0%, #F4D03F 51%, #16A085 100%)}
+    .btn-grad:hover { background-position: right center; }
+    .pbar1 {background-image: linear-gradient(to right, #a01631 0%, #F4D03F 51%, #16A085 100%)}
+    .pbar2 {background-image: linear-gradient(to right, #a01631 0%, #F4D03F 100%)}
+    .pbar3 {background-image: linear-gradient(to right, #a01631 99%, #F4D03F 100%)}
+</style>
+
 <h1>This is the warden/index.html template</h1>
 {{=BEAUTIFY(response._vars)}}
 
 <input type="button" onclick="ws.send(0)">
 
-
+<div id="progressbar"></div>
 <script>
     var keydown = 0
     var ws = null
     $( document ).ready(document_ready)
     function document_ready(){
         ws_ready()
+        $("#progressbar").progressbar({max: 21})
+        //$("#progressbar > div").css("opacity", "0.6")
     }
 
     function ws_ready(){
@@ -27,13 +41,28 @@
     }
     
     function ws_on_open(){}
-    function ws_on_close(){}
+    function ws_on_close(){ws_ready()}
 
+    
+    
+        
+        
+    
     function ws_on_message(e){
-        try{data = JSON.parse(e.data)}
-        catch(err){console.log(e.data); return false}
-        try{window[data['callback']](data);}
-        catch(err){console.log(e.data)}
+        console.log(e.data)
+        //try{data = JSON.parse(e.data)}
+        //catch(err){console.log(e.data); return false}
+        //try{window[data['callback']](data);}
+        //catch(err){console.log(e.data)}
+        data = JSON.parse(e.data)
+        var bar_value = data['voltage']-60
+        $("#progressbar").progressbar("destroy")
+        $("#progressbar").progressbar({max: 21})
+        $("#progressbar").progressbar("value", bar_value);
+        if(bar_value > 14) $("#progressbar > div").addClass("pbar1")
+        else if(bar_value > 7) $("#progressbar > div").addClass("pbar2")
+        else if(bar_value <= 7) $("#progressbar > div").addClass("pbar3")
+
     }
 
     $(window).keydown(function(){
@@ -66,7 +95,7 @@
     gamepad_interval = setInterval(poll_gamepad, poll_rate);
     function poll_gamepad(){
         var gamepads = navigator.getGamepads();
-        if(gamepads.length > 0){
+        if(gamepads[0] != null){
             var gamepad = gamepads[0]
             var left = gamepad.axes[5]
             var right = gamepad.axes[1]

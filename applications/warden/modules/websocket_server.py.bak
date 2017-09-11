@@ -187,8 +187,10 @@ class DistributeHandler(tornado.websocket.WebSocketHandler):
         if not self.group in listeners:
             listeners[self.group] = []
         # notify clients that a member has joined the groups
+        bat_v = rc.ReadMainBatteryVoltage(address)
         for client in listeners.get(self.group, []):
-            client.write_message('+' + self.name)
+            #client.write_message('+' + self.name)
+            client.write_message(json.dumps({'voltage': bat_v[1]}))
         listeners[self.group].append(self)
         names[self] = self.name
         print('%s:CONNECT to %s' % (time.time(), self.group))
@@ -196,11 +198,16 @@ class DistributeHandler(tornado.websocket.WebSocketHandler):
     def on_message(self, message):
         try:
             obj = json.loads(message)
-            left = float(obj['left']) * -1
-            right = float(obj['right']) * -1
+            left = float(obj['left'])
+            right = float(obj['right'])
             if left >= 1.0: left = 0.99
             if right >= 1.0: right = 0.99
             rc.DutyAccelM1M2(address, accel, left, accel, right)
+            if left == 0 and right == 0:
+                bat_v = rc.ReadMainBatteryVoltage(address)
+                print(bat_v[1])
+                for client in listeners.get(self.group, []):
+                    client.write_message(json.dumps({'voltage': bat_v[1]}))
         except:
             rc.DutyAccelM1M2(address, accel, 0, accel, 0)
         print(message)
