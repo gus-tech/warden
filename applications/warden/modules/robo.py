@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-from gluon import *
+#from gluon import *
 
 #!/usr/bin/env python
 
@@ -35,9 +35,9 @@ def main():
     os.environ['SDL_VIDEODRIVER'] = 'dummy'
     pygame.display.set_mode((1,1))
     
-    GPIO.cleanup()
-    GPIO.setup("CSID0", GPIO.OUT)
-    GPIO.output("CSID0", GPIO.HIGH)
+    #GPIO.cleanup()
+    #GPIO.setup("CSID0", GPIO.OUT)
+    #GPIO.output("CSID0", GPIO.HIGH)
     
     stdout = sys.__stdout__
     stderr = sys.__stderr__

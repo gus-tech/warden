@@ -35,6 +35,9 @@
         catch(err){console.log(e.data)}
     }
 
-
+    function ws_on_close(e){
+        $('#ipam_report_button').prop('disabled', true);
+        get_report_status()
+    }
     
 </script>

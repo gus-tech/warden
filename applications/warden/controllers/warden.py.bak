@@ -8,6 +8,6 @@ def index():
     ws_group = "warden"
     ws_token = "123456789"
     ws_name = "users" #auth.user.username.split("@")[0]
-    ws_connection_string = "ws://{0}:{1}/realtime/{2}/{3}/{4}".format(ws_host, ws_port, ws_group, ws_token, ws_name)
+    ws_connection_string = "wss://{0}:{1}/realtime/{2}/{3}/{4}".format(ws_host, ws_port, ws_group, ws_token, ws_name)
 
     return dict(ws_connection_string=ws_connection_string)

@@ -1,0 +1,4 @@
+# -*- coding: utf-8 -*-
+
+FQDN = socket.gethostbyaddr(socket.gethostname())[0]
+HOSTNAME = socket.gethostname()

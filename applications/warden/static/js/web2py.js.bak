@@ -537,7 +537,7 @@
                 ws.onopen = onopen ? onopen : (function () {});
                 ws.onmessage = onmessage;
                 ws.onclose = onclose ? onclose : (function () {});
-                return ws; /* supported */
+                return true; /* supported */
             } else return false; /* not supported */
         },
         /* new from here */
